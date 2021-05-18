@@ -1,0 +1,164 @@
+*, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+body {
+    margin: 70px;
+}
+
+/*-------------------------------HEADER---------------------------------*/
+
+img {
+    height: 230px;
+    width: 190px;
+    box-shadow: 10px 10px rgb(0, 110, 217);
+}
+
+i {
+    color: rgb(0, 110, 217);
+    margin-right: 20px;
+    margin-left: 2px;
+}
+
+.header-container {
+    display: flex;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.basic-data {
+    width: 350px;
+    /*border: 2px black solid;*/
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.basic-data span {
+    margin-bottom: 15px;
+}
+
+.basic-data .myName {
+    font-size: 37px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.cv {
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(0, 110, 217);
+    position: absolute;
+    right: 0;
+    text-decoration: underline;
+}
+
+.header-description {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 110, 217);
+}
+/*-------------------------SECTION-WYKSZTAŁCENIE--------------------------*/
+
+section {
+    margin-top: 50px;
+}
+
+hr {
+    border: 1px rgb(0, 110, 217) solid;
+    margin-bottom: 5px;
+}
+
+h1 {
+    background-color: rgb(0, 110, 217);
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+
+a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.section-container {
+    display: flex;
+    margin-top: 25px;
+}
+
+.date {
+    margin-left: 8px;
+    margin-right: 80px;
+}
+
+.date span {
+    display: block;
+}
+
+.date :first-child {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.date :last-child {
+    color: rgb(85, 158, 231);
+}
+
+.info span {
+    display: block;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.info :first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.blue-text {
+    color: rgb(85, 158, 231);
+    padding-top: 10px;
+}
+
+.black-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.info2 {
+    font-size: 20px;
+    margin-left: 220px;
+}
+
+.separator {
+    font-size: 30px;
+    color: rgb(0, 110, 217);
+}
+
+.emptySpace {
+    display: block;
+    height: 15px;
+}
+
+.consent {
+    color: rgb(85, 158, 231);
+    margin: 85px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 150%;
+}
+
+
+
